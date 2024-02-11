@@ -1,0 +1,53 @@
+root{
+    --mainBackgroundColor: #2c3e50;
+    --mainColor: #fff;
+    --mainbg : #1abc9c;
+}
+.header ,.footer{
+    background-color: #2c3e50;
+}
+.head-bottom{
+    width: 10%;
+}
+.navbar{
+    transition: 0.5s all;
+}
+.nav{
+    display: flex;
+    justify-content: end;
+}
+
+.mainpage{
+    background-color: #1abc9c ;
+}
+.secondPage{
+    background-color: #1abc9c ;
+}
+.contact,.portfolio{
+    color: #2c3e50;
+    span{
+        border-bottom-color: #2c3e50 !important;
+    }
+}
+input{
+    background-color: #2c3e50;
+    color: #ffffff;
+    border: none !important;
+    border-bottom: 1px solid #000 !important;
+}
+input::placeholder{
+    color: #000 !important;
+}
+.layer__ {
+    background-color: #1abc9ce6 !important;
+    opacity: .8;
+    cursor: pointer;
+    transition: .6s opacity;
+
+}
+.layer__:hover{
+    background-color: #1abc9ce6 !important;
+    opacity: 1;
+    cursor: pointer;
+    transition: .6s opacity;
+}

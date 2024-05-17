@@ -1,5 +1,7 @@
 import React from 'react';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faFacebook, faLinkedin, faTwitter} from '@fortawesome/free-brands-svg-icons';
+import {faGlobe} from "@fortawesome/free-solid-svg-icons";
 
 function Footer(props) {
     return (
@@ -13,10 +15,10 @@ function Footer(props) {
                 <div className='col-md-4 '>
                     <h3>AROUND THE WEB</h3>
                     <div className="d-flex justify-content-center gap-4">
-                        <span>In</span>
-                        <span>Os</span>
-                        <span>fa</span>
-                        <span>LN</span>
+                        <span className="border border-1 p-2 rounded-circle"><FontAwesomeIcon icon={faFacebook}/></span>
+                        <span className="border border-1 p-2 rounded-circle"><FontAwesomeIcon icon={faTwitter}/></span>
+                        <span className="border border-1 p-2 rounded-circle"><FontAwesomeIcon icon={faLinkedin}/></span>
+                        <span className="border border-1 p-2 rounded-circle"><FontAwesomeIcon icon={faGlobe}/></span>
 
                     </div>
                 </div>

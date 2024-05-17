@@ -6,6 +6,7 @@ import image3 from "../../assets/portfolio/port3.png";
 import Lightbox from "yet-another-react-lightbox";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "yet-another-react-lightbox/styles.css";
+import {faStar} from "@fortawesome/free-solid-svg-icons";
 function Portfolio(props) {
     const [open, setOpen] = useState(false);
     const [image, setImage] = useState("");
@@ -62,7 +63,7 @@ function Portfolio(props) {
             <h1 className="fw-bold">PORTFOLIO SECTION</h1>
             <div className="d-flex mt-3 justify-content-center gap-4">
                 <span className="border-bottom  border-4  head-bottom" ></span>
-                <FontAwesomeIcon icon="fa-solid fa-star"/>
+                <FontAwesomeIcon icon={faStar}/>
                 <span className="border-bottom  border-4  head-bottom"></span>
             </div>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import avattar from "../../assets/avataaars.svg";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faAsterisk, faStar} from "@fortawesome/free-solid-svg-icons";
 
 function About(props) {
     return (
@@ -10,7 +11,7 @@ function About(props) {
                     <h1 className="fw-bold">ABOUT COMPONENT</h1>
                     <div className="d-flex mt-3 justify-content-center gap-4">
                         <span className=" border-bottom border-light  border-5 head-bottom"></span>
-                        <FontAwesomeIcon icon="fa-solid fa-star"/>
+                        <FontAwesomeIcon icon={faStar}/>
                         <span className="border-bottom border-light  border-5 head-bottom"></span>
                     </div>
                     <div className="row text-start">
